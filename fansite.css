@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #3f3f3f;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1140px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  background-color: #8850bf;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home-banner {
+  background: #ddd url("../img/bts3.jpg") no-repeat center top;
+  height: 688px;
+  width: 100%;
+  background-size: cover;
+}
+
+.main-content {
+  background-color: #f9f9f9;
+}
+
+.p-60 {
+  padding: 60px 0;
+}
+
+.page-title {
+  font-size: 2.5em;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.card {
+  width: 18rem;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery-container {
+  display: inline-grid;
+  grid-column-gap: 50px;
+  grid-template-columns: repeat(4, auto);
+  background-color: #fff;
+}
+
+.gallery {
+  text-align: center;
+  padding: 5px;
+}
+
+.fun-facts {
+  background-color: #f9f9f9;
+}
+
+footer {
+  background-color: #392259;
+  color: #fff;
+  padding: 25px 0;
+  width: 100%;
+}
